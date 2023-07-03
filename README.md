@@ -1,5 +1,6 @@
 # FreeGPT WebUI 
 ## GPT 3.5/4
+> 为了在zeabur中部署，在Dockerfile中增加了暴露端口的操作，原始的操作是在docker run的时候增加端口映射，但是zeabur只能执行Dockerfile中的操作
 
 ❌🔑 <strong>NOT REQUIRE ANY API KEY</strong> 
 
