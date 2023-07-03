@@ -19,5 +19,5 @@ COPY --from=build /root/.local /root/.local
 COPY . .    
     
 ENV PATH=/root/.local/bin:$PATH    
-    
+EXPOSE 1338
 CMD ["python3", "./run.py"]  
